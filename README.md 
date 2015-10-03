@@ -1,4 +1,4 @@
-
+## Settings
 `sudo xcodebuild -license`
 
 `xcode-select --install`
