@@ -81,6 +81,8 @@
       - { name: ruby-completion }
 
       - { name: ruby-build }
+      - { name: rsense }
+      - { name: rsense, state: linked, install_options: force }
       - { name: sqlite }
       # - { name: socat }
       # - { name: subversion}
