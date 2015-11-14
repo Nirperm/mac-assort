@@ -15,6 +15,7 @@
       # - {name: apple-gcc42}
       # - {name: boot2docker }
       - { name: bundler-completion }
+      - { name: boost }
       - { name: cairo }
       - { name: curl }
       # - {name: cloog }
