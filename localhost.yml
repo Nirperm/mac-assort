@@ -27,6 +27,7 @@
       # - {name: docker }
       # - { name: eigen }
       - { name: editorconfig }
+      - { name: elixir }
       - { name: fish }
       - { name: fontconfig }
       - { name: freetype }
@@ -77,10 +78,8 @@
       - { name: rbenv-gem-rehash }
       - { name: rbenv-gemset }
       - { name: reattach-to-user-namespace }
-
       # - { name: rlwrap }
       - { name: ruby-completion }
-
       - { name: ruby-build }
       - { name: rsense }
       - { name: rsense, state: linked, install_options: force }
