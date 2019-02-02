@@ -9,126 +9,161 @@
       - caskroom/cask
       - sanemat/font
     homebrew_packages:
-      - { name: ansible }
       - { name: autoconf }
-      - { name: automake }
+      # - { name: automake }
+      - { name: awscli }
       # - {name: apple-gcc42}
       # - {name: boot2docker }
-      - { name: bundler-completion }
-      - { name: boost }
-      - { name: cairo }
+      # - { name: bundler-completion }
+      # - { name: boost }
+      # - { name: cairo }
       - { name: curl }
       # - {name: cloog }
-      - { name: cmake }
-      - { name: crf++ }
-      - { name: ctags }
+      # - { name: cmake }
+      # - { name: crf++ }
+      # - { name: ctags }
       # - { name: coreutils }
-      # - { name: direnv }
-      # - {name: docker }
+      - { name: direnv }
+      - { name: docker-compose }
       # - { name: eigen }
-      - { name: editorconfig }
-      - { name: elixir }
-      - { name: fish }
-      - { name: fontconfig }
+      # - { name: editorconfig }
+      # - { name: elixir }
+      # - { name: fontconfig }
+      # - { name: freetype }
+      # - { name: flow }
+      - { name: ffmpeg }
       - { name: freetype }
-      - { name: flow }
-      - { name: gcc }
+      # - { name: gcc }
       # - {name: gcc47}
-      - { name: gem-completion }
+      - { name: gettext }
       - { name: git }
-      - { name: glib }
-      - { name: gd }
-      - { name: gdbm }
-      - { name: gmp }
+      - { name: git-lfs }
+      - { name: goenv }
+      # - { name: glib }
+      # - { name: gd }
+      # - { name: gdbm }
+      # - { name: gmp }
       # - { name: gmp4 }
-      - { name: graphviz }
+      # - { name: graphviz }
       # - { name: hub }
-      - { name: homebrew/completions/vagrant-completion }
+      # - { name: homebrew/completions/vagrant-completion }
       - { name: imagemagick }
       # - {name: isl }
       - { name: jpeg }
-      - { name: jq }
-      - { name: jsonpp }
+      # - { name: jq }
+      # - { name: jsonpp }
+      - { name: lame }
       - { name: libevent }
       - { name: libffi }
+      - { name: libidn2 }
+      - { name: libogg }
+      - { name: libomp }
       - { name: libpng }
-      - { name: libsodium }
       - { name: libtiff }
-      # - {name: libtool }
+      - { name: libtool }
+      # - { name: libsodium }
+      - { name: libunistring }
+      - { name: libvorbis }
+      - { name: libvpx }
       - { name: libyaml }
+      - { name: little-cms2 }
+      - { name: lua }
       # - { name: lv }
-      - { name: mercurial }
+      # - { name: mercurial }
       # - {name: mpfr2}
       - { name: mysql }
       - { name: nkf }
+      - { name: nodebrew }
+      - { name: openjpeg }
       - { name: openssl }
-      - { name: openssl, state: linked, install_options: force }
+      # - { name: openssl, state: linked, install_options: force }
+      - { name: opus }
       # - { name: packer }
       # - { name: peco }
-      - {name: pip-completion }
+      # - { name: pip-completion }
+      - { name: pcre2 }
+      - { name: perl }
       - { name: pkg-config }
       - { name: pyenv }
-      - { name: python }
-      - { name:  p7zip }
+      # - { name: p7zip }
       # - {name: ricty}
-      - { name: rake-completion }
-      - { name: rails-completion }
       - { name: readline }
-      - { name: rbenv }
-      - { name: rbenv-gem-rehash }
-      - { name: rbenv-gemset }
-      - { name: reattach-to-user-namespace }
+      - { name: rmtrash }
+      - { name: ruby }
+      # - { name: rake-completion }
+      # - { name: rails-completion }
+      # - { name: rbenv }
+      # - { name: rbenv-gem-rehash }
+      # - { name: rbenv-gemset }
+      # - { name: reattach-to-user-namespace }
       # - { name: rlwrap }
-      - { name: ruby-completion }
-      - { name: ruby-build }
-      - { name: rsense }
-      - { name: rsense, state: linked, install_options: force }
-      - { name: sqlite }
+      # - { name: ruby-completion }
+      # - { name: ruby-build }
+      # - { name: rsense }
+      # - { name: rsense, state: linked, install_options: force }
       # - { name: socat }
       # - { name: subversion}
+      - { name: sdl2 }
+      - { name: snappy }
+      - { name: sqlite }
       - { name: source-highlight }
-      - { name: tree }
+      - { name: theora }
       # - { name: tig }
-      - { name: trash }
       - { name: tmux }
       # - { name: tofrodos }
       - { name: vim}
-      - { name: watch }
+      - { name: webp }
       - { name: wget }
+      - { name: x264 }
+      - { name: x265 }
+      - { name: xvid }
+      - { name: xz }
+      - { name: yarn }
+      # - { name: watch }
       # - { name: w3m }
-      # - { name: xz }
       # - { name: zsh, install_options: disable-etcdir }
     homebrew_cask_packages:
-      - { name: adobe-reader }
-      - { name: atom }
-      # - { name: atom-shell }
+      - { name: android-file-transfer }
+      - { name: android-sdk }
+      - { name: android-studio }
       - { name: appcleaner }
-      - { name: calibr }
+      - { name: atom }
+      - { name: avast-security }
+      - { name: blender }
+      # - { name: adobe-reader }
+      # - { name: atom-shell }
+      # - { name: calibr }
       - { name: cyberduck }
-      - { name: dash }
-      - { name: day-o }
-      - { name: onyx }
+      - { name: docker }
       - { name: dropbox }
-      - { name: evernote }
-      - { name: macs-fan-control }
-      - { name: flux }
+      - { name: gimp }
       - { name: google-chrome }
       - { name: google-japanese-ime }
-      - { name: gyazo }
-      - { name: kindle }
-      - { name: kindle-previewer }
-      - { name: kobito }
-      - { name: monolingual }
-      - { name: seil }
-      - { name: skype }
-      - { name: slack }
-      - { name: sophos-anti-virus-home-edition }
+      - { name: iina }
+      - { name: java }
+      - { name: java8 }
+      - { name: libreoffice }
       - { name: skitch }
-      - { name: seashore }
-      - { name: totalterminal }
+      - { name: slack }
       - { name: the-unarchiver }
-      - { name: vagrant }
-      - { name: virtualbox }
+      - { name: unity-hub }
+      - { name: visual-studio-code }
+      # - { name: dash }
+      # - { name: day-o }
+      # - { name: onyx }
+      # - { name: evernote }
+      # - { name: macs-fan-control }
+      # - { name: flux }
+      # - { name: gyazo }
+      # - { name: kindle }
+      # - { name: kindle-previewer }
+      # - { name: monolingual }
+      # - { name: seil }
+      # - { name: skype }
+      # - { name: skitch }
+      # - { name: seashore }
+      # - { name: vagrant }
+      # - { name: virtualbox }
   tasks:
     - name: homebrew の tap リポジトリを追加
       homebrew_tap: tap={{ item }} state=present
@@ -168,7 +203,7 @@
       shell: brew cask info {{ item }} > cask_info/{{ item }}
       with_items: cask_result.results | selectattr('changed') | map(attribute='item') | map(attribute='name') | list
 
-    # Ricty
+    Ricty
     - name: xquartz のインストール (for Ricty)
       homebrew_cask: name=xquartz
     - name: fontforge のインストール (for Ricty)
