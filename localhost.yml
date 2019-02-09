@@ -155,7 +155,7 @@
       # - { name: macs-fan-control }
       # - { name: flux }
       # - { name: gyazo }
-      # - { name: kindle }
+      - { name: kindle }
       # - { name: kindle-previewer }
       # - { name: monolingual }
       # - { name: seil }
