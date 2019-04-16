@@ -23,6 +23,7 @@
       # - { name: crf++ }
       # - { name: ctags }
       # - { name: coreutils }
+      - { name: dep }
       - { name: direnv }
       - { name: docker-compose }
       # - { name: eigen }
